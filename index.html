@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/main.css" />
+  <meta charset="UTF-8">
+  <title>Scoped CSS Variables and JS</title>
+</head>
+<body>
+  <h2>Update CSS Variables with <span class='hl'>JS</span></h2>
+
+  <div class="controls">
+    <label for="radius">Radius:</label>
+    <input id="radius" type="range" name="radius" min="0" max="100" value="0" data-sizing="%">
+
+    <label for="blur">Blur:</label>
+    <input id="blur" type="range" name="blur" min="0" max="25" value="10" data-sizing="px">
+
+    <label for="base">Base Color</label>
+    <input id="base" type="color" name="base" value="#ffc600">
+  </div>
+
+  <img src="https://cdn.pixabay.com/photo/2017/10/31/07/49/horses-2904536_960_720.jpg">
+
+  <script src="js/vars.js"></script>
+
+</body>
+</html>
